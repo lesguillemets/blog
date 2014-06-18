@@ -3,3 +3,4 @@ markdown: redcarpet
 pygments: true
 timezone: Japan
 encoding: utf-8
+baseurl: /blog
