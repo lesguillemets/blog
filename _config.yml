@@ -1,0 +1,5 @@
+name: Xeebi
+markdown: redcarpet
+pygments: true
+timezone: Japan
+encoding: utf-8
