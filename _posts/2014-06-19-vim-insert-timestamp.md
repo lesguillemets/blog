@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Vim で timestanp を挿入"
+title:  "Vim で timestamp を挿入"
 date:   2014-06-19 00:28:00 UTC+9
 categories: vim
 ---
@@ -15,7 +15,7 @@ jekyll を使って記事を書く場合，`_posts` 以下の markdown とかの
 {% highlight text %}
 ---
 layout: post
-title:  "Vim で timestanp を挿入"
+title:  "Vim で timestamp を挿入"
 date:   2014-06-19 00:21:34 UTC+9
 categories: vim
 ---
