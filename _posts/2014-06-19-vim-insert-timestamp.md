@@ -8,7 +8,7 @@ categories: vim
 Vim でタイムスタンプ挿入なんていうありふれたネタ．
 
 jekyll を使って記事を書く場合，`_posts` 以下の markdown とかの先頭にヘッダを書くわけだ．
-形式は YAML, jekyll では Front-matter として [http://jekyllrb.com/docs/frontmatter/](解説がされている)．
+形式は YAML, jekyll では Front-matter として [解説がされている](http://jekyllrb.com/docs/frontmatter/)．
 
 形式は例えばこうだ．
 
