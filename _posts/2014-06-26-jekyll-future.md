@@ -13,4 +13,12 @@ Github にこれで push した場合に，時刻が来ると publish される�
 この post で確かめる．
 
 結果
+
 ↓↓↓
+
+反映されなかった．結局 github pages の方で rebuild されるのに push とかが必要らしい．
+[stackoverflow](http://stackoverflow.com/questions/24353638/show-only-future-posts-in-jekyll)にも似た話があり，
+丁度同じ事を試さはった [blog](http://praglowski.com/2013/03/14/scheduling-a-future-posts-in-jekyll/) もある．
+
+`cron` で `push` って auth どうするんだろう，ssh 作るといけるでみたいな話もあるし，あるいは
+[Personal access tokens](https://github.com/settings/applications) とか使えばいいのかな．
