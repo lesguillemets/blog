@@ -29,6 +29,28 @@ a         { color: #00a; }
 a:hover   { color: #000; }
 a:visited { color: #a0a; }
 
+/*** non-installed fonts ***/
+/* Fantasque Sans Mono : https://github.com/belluzj/fantasque-sans */
+@font-face {
+    font-family: "Fantasque Sans Mono";
+    font-weight: normal;
+    font-style: normal;
+    src: url("../fonts/fantasque-sans-mono/FantasqueSansMono_Regular.otf");
+    }
+    @font-face {
+    font-family: "Fantasque Sans Mono";
+    font-weight: normal;
+    font-style: italic;
+    src: url("../fonts/fantasque-sans-mono/FantasqueSansMono_RegItalic.otf");
+}
+@font-face {
+    font-family: "Fantasque Sans Mono";
+    font-weight: bold;
+    font-style: normal;
+    src: url("../fonts/fantasque-sans-mono/FantasqueSansMono_Bold.otf");
+}
+/***************************/
+
 /*****************************************************************************/
 /*
 /* Home
