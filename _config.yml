@@ -6,3 +6,5 @@ encoding: utf-8
 baseurl: /blog
 permalink: /:year/:month/:day/:title.html
 future: false
+gems:
+  - jekyll-sitemap
