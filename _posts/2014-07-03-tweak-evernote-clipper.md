@@ -8,7 +8,7 @@ categories: javascript
 普段使いのブラウザは Firefox, evernote web clipper は大変便利に使っている．
 こいつには smart filling といって tag とか notebook を自動で埋めるという機能があるんだが，
 
-![smart filling]({{site.baseurl}}/img/2014-07/03_evernote_clipper0.png}})
+![smart filling]({{site.baseurl}}/img/2014-07/03_evernote_clipper0.png)
 
 これの挙動が外から見えなくて若干気持ち悪いのと，学習してもらうんじゃなくて最初から自分である程度 configure したいという需要があった．例えば
 
