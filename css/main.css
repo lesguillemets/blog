@@ -13,7 +13,7 @@
 html, body { height: 100%; }
 
 body {
-  background-color: #FFF;
+  background-image: url("../img/back.jpeg");
   font: 13.34px Helvetica, Arial, sans-serif;
   font-size: small;
   text-align: center;
@@ -85,9 +85,18 @@ ul.categories > li {
 .site {
   font-size: 115%;
   text-align: justify;
-  width: 42em;
+  width: 53em;
   margin: 3em auto 2em;
   line-height: 1.5em;
+  background-color: #f5f0c0;
+  padding: 15px;
+}
+.site h1, .site h2{
+    font-size:120%;
+}
+
+.site h3 {
+    font-size:110%;
 }
 
 .header a {
@@ -155,6 +164,12 @@ ul.categories > li {
 /*****************************************************************************/
 
 /* standard */
+
+.post {
+    padding: 2em;
+    padding-top: 0em;
+}
+
 .post pre {
   border: 1px solid #ddd;
   background-color: #eef;
@@ -168,13 +183,24 @@ ul.categories > li {
 .post code {
   font-family: "Fantasque Sans Mono", monospace;
   border: 1px solid #ddd;
-  background-color: #eef;
+  background-color: #f6f4f4;
   padding: 0 .2em;
+}
+
+div.highlight>pre {
+    background-color:#111;
 }
 
 .post pre code {
   border: none;
   padding-left:0;
+  background-color:#111;
+}
+
+.post img{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 /* terminal */
