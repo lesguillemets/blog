@@ -59,6 +59,7 @@ a:visited { color: #a0a; }
 .posts {
   list-style-type: none;
   margin-bottom: 2em;
+  font-size:inherit;
 }
 
 .posts li {
@@ -69,6 +70,10 @@ a:visited { color: #a0a; }
   color: #aaa;
   font-family: Monaco, "Courier New", monospace;
   font-size: 80%;
+}
+
+ul.categories > li {
+  list-style-type: none;
 }
 
 /*****************************************************************************/
