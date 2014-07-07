@@ -73,7 +73,7 @@ matchadd('ExtraWhiteSpace', '\S\+\zs\s\+\ze$',0)
 (後ろの `\ze` 要らないかもしれないがまあ．)
 
 
-`:h \@<=`
+[`:h \@<=`](http://vim-help-jp.herokuapp.com/#\%40%3C%3D)
 
 {% highlight text %}
 \@<=  Matches with zero width if the preceding atom matches just before what
