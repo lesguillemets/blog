@@ -32,3 +32,8 @@ export HISTCONTROL="ignoreboth:erasedups"
 {% endhighlight %}
 
 で解決する．なんで今まで設定してなかったんだろうという感じだ．
+
+(追記 7 Jul 2014)
+
+…と思ったし一応確認したつもりだったんだけど，どうも `HISTCONTROL="erasedups"` だけにしないとだめっぽい?
+
