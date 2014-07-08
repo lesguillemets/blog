@@ -36,7 +36,7 @@ if __name__ == "__main__":
 
 結果
 
-<img src="{{site.baseurl}}/img/2014-07/08_kterm_truecolor.png" alt="trucolor.png" style="width:600px;">
+![img]({{site.baseurl}}/img/2014-07/08_kterm_truecolor.png)
 
 他の terminal については以下の gist にまとまっている．
 
