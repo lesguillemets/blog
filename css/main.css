@@ -215,6 +215,18 @@ div.highlight>pre {
   background-color: #333;
 }
 
+div.footinfo{
+    color : #555;
+    float:right;
+}
+
+div.footinfo a{
+    text-decoration: none;
+}
+div.footinfo a { color: #557; }
+div.footinfo a:hover   { color: #222; }
+div.footinfo a:visited { color: #737; }
+
 div.license a {
     text-decoration: none;
 }

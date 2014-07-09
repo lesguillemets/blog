@@ -4,10 +4,11 @@ title: Xeebi
 ---
 
 <div id="home">
-  <h1>Categories</h1>
+  <h1 id="heading">Categories</h1>
   <ul class="categories">
     {% for cat in site.categories %}
-    <li>{{cat|first}}
+    <li class="category" id="{{cat|first}}" style="display:none;">
+      {{cat|first}}
       <ul class="posts">
         {% for posts in cat %} {% for post in posts %} {% if post.url %}
         <li><span>{{post.date|date_to_string}} &raquo; </span><a href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a></li>
@@ -17,3 +18,5 @@ title: Xeebi
     {% endfor %}
   </ul>
 </div>
+
+<script src="./js/categories.js"></script>

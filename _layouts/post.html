@@ -7,3 +7,9 @@ layout: default
 <div class="post">
 {{ content }}
 </div>
+<div class="footinfo">
+  category : 
+  {% for cat in page.categories %}
+  <a href="{{site.baseurl}}/categories.html#{{cat}}">{{cat}}</a>
+  {% endfor %}
+</div>
