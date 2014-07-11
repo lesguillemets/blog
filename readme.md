@@ -1,1 +1,1 @@
-blog at http//lesguillemets.github.io/blog
+blog at http://lesguillemets.github.io/blog
