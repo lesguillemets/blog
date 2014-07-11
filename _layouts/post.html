@@ -8,8 +8,18 @@ layout: default
 {{ content }}
 </div>
 <div class="footinfo">
-  category : 
-  {% for cat in page.categories %}
-  <a href="{{site.baseurl}}/categories.html#{{cat}}">{{cat}}</a>
-  {% endfor %}
+  <div class="cat">
+    category : 
+    {% for cat in page.categories %}
+    <a href="{{site.baseurl}}/categories.html#{{cat}}">{{cat}}</a>
+    {% endfor %}
+  </div><br />
+  <div class="neighbour">
+    {% if {{page.previous.url}} %}
+    <p id="previous"><a href="{{site.baseurl}}{{ page.previous.url }}">« previous post</a></p>
+    {% endif %}
+    {% if {{page.next.url}} %}
+    <p id="next"><a href="{{site.baseurl}}{{ page.next.url }}">next post »</a></p>
+    {% endif %}
+  </div><br />
 </div>
