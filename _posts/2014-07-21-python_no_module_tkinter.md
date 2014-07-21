@@ -2,7 +2,7 @@
 layout: post
 title:  "Python で your Python may not be configured for Tk といわれて tkinter できない"
 date:  2014-07-21 22:33:34 UTC+9
-categories:
+categories: python
 ---
 
 ### 問題
