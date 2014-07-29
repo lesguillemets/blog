@@ -5,6 +5,6 @@ timezone: Japan
 encoding: utf-8
 baseurl: /blog
 permalink: /:year/:month/:day/:title.html
-future: false
+future: true
 gems:
   - jekyll-sitemap
