@@ -34,7 +34,7 @@ ImportError: No module named '_tkinter'
 $ sudo apt-get install tk-dev
 {% endhighlight %}
 
-して ソース置いてあるところまで移動の後 `./configure` (は要らないかも),
+して python 3 のソース置いてあるところまで移動の後 `./configure` (は要らないかも),
 `make`, `sudo make install`
 
 できたらあとは
