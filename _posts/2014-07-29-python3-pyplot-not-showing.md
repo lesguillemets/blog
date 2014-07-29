@@ -8,7 +8,7 @@ categories: python matplotlib
 ### 問題
 
 Ubuntu 12.04 の gnuplot は[古く](https://launchpad.net/ubuntu/precise/+package/gnuplot)，ちょうどこのあとに追加された機能や fix された bug
-も結構あるので，とりあえず matplotlib/pyplot を使うことにする．個人的には最近は python3 に移行しきっているので，python3 上で叩くが
+も結構あるので，とりあえず matplotlib/pyplot を使うことにする．個人的には最近は python3 に移行しきっているので，python3 上で叩いてみると
 
 {% highlight python %}
 import matlotlib.pyplot as plt
