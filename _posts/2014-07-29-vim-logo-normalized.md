@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "wikipedia の Vim のロゴが正しくなったよ"
+title:  "wikipedia の Vim のロゴの縦横比が正しくなったよ"
 date:  2014-07-29 12:13:14 UTC+9
 categories: vim
 ---
