@@ -12,6 +12,8 @@ categories: bash
 
 <!-- * TODO : `<C-x><C-e>` で起動した時に `set ft=bash` しておきたいところ． -->
 
+### filetype も設定したい！
+
 さて，せっかくこれしたなら `set ft=bash` したいじゃないですか．
 
 例によって stackoverflow に[質問がありました](http://stackoverflow.com/questions/7115324/syntax-highlighting-in-bash-vi-input-mode/7115478#7115478)．
