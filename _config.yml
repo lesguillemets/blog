@@ -1,6 +1,5 @@
 name: Xeebi
-markdown: redcarpet
-pygments: true
+highlight: pygments
 timezone: Japan
 encoding: utf-8
 baseurl: /blog
