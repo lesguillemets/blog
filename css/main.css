@@ -133,7 +133,7 @@ header a.extra:hover {
 footer.mainfooter {
   font-size: 80%;
   color: #666;
-  border-top: 4px solid #fff;
+  border-top: 1px solid #555;
   margin-top: 2em;
   padding-top:1em;
   display:block;
