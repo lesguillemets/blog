@@ -193,14 +193,21 @@ div.highlight>pre {
     background-color:#111;
 }
 
-article.post h1,article.post h2, article.post h3{
+article.post h2, article.post h3{
     margin-top:0.5em;
     margin-bottom:0.5em;
     margin-left:-1em;
     padding:0.1em;
     padding-left:0.5em;
-    background-color: rgba(220,220,220,0.4);
+    background-color: rgba(256,256,256,0.4);
 }
+
+
+header.postheader{
+    margin-left:-1.5em;
+    margin-bottom:1em;
+}
+
 
 article.post h1 {
     font-size:120%;
@@ -212,6 +219,10 @@ article.post h2 {
 
 article.post h3{
     font-size:105%;
+}
+
+article.post time {
+  color: #999;
 }
 
 
