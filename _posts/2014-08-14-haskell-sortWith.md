@@ -27,7 +27,7 @@ sortBy :: (a -> a -> Ordering) -> [a] -> [a]
 {% highlight haskell %}
 (Ord b) => (a -> b) -> [a] -> [a]
 {% endhighlight %}
-とかこの辺りのはず．とりあえずこれで検索すると見事にあって，名前が近いけど僕が欲しかったのは `GHC.ext` にある
+とかこの辺りのはず．とりあえずこれで検索すると見事にあって，名前が近いけど僕が欲しかったのは `GHC.Exts` にある
 [`sortWith`](http://hackage.haskell.org/package/base-4.7.0.1/docs/GHC-Exts.html#v:sortWith).
 
 > The sortWith function sorts a list of elements using the user supplied function to project something out of each element.
