@@ -4,7 +4,18 @@
       <meta charset="utf-8">
       <title>{{ page.title }} - {{ site.name }}</title>
       <meta name="viewport" content="width=device-width">
-     
+      <meta name="description" content="Vim, Python, Haskell あたりのゆるふわ技術系個人的メモ">
+      {% if page.keywords %}
+      <meta property="keywords" content="{{ page.keywords|join:',' }}">
+      {% elsif page.categories %}
+      <meta property="keywords" content="{{ page.categories|join:',' }}">
+      {% else %}
+      <meta property="keywords" content="Vim,Python,Haskell,javascript">
+      {% endif %}
+      <meta name="creation_date"  content="2014-06-18">
+      {% if page.date %}
+      <meta name="date" content="{{page.date|date: "%Y-%m-%d"}}">
+      {% endif %}
       <!-- syntax highlighting CSS -->
       <link rel="stylesheet" href="{{ site.baseurl }}/css/base16-railscasts.dark.css">
       <!-- Custom CSS -->
