@@ -1,13 +1,13 @@
 ---
 layout: default
 ---
-<h2>{{ page.title }}</h2>
+<h1>{{ page.title }}</h1>
 <p class="meta">{{ page.date | date_to_string }}</p>
 
-<div class="post">
+<article class="post">
 {{ content }}
-</div>
-<div class="footinfo">
+</article>
+<footer class="postfooter">
   <div class="cat">
     category : 
     {% for cat in page.categories %}
@@ -22,4 +22,4 @@ layout: default
     <p id="next"><a href="{{site.baseurl}}{{ page.next.url }}">next post »</a></p>
     {% endif %}
   </div><br />
-</div>
+</footer>
