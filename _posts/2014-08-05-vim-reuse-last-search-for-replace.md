@@ -52,3 +52,8 @@ Last search pattern register を使う ([`:h quote/`](http://vim-help-jp.herokua
 
 ### 参考
 [Vim - General - Reuse search pattern?](http://vim.1045645.n5.nabble.com/Reuse-search-pattern-td1188177.html) に載ってた．
+
+### 別の解決法
+(25 Aug 2014 追記)
+
+「何気なく使う検索から置換への滑らかな移行」なら上のが良いと思われるが，「置換パターンを実験したりしつつ定めたい」のであれば [osyo-manga/vim-over](https://github.com/osyo-manga/vim-over) を使うのがいいかもしれない．作者による解説記事は [http://d.hatena.ne.jp/osyo-manga/20131105/1383664737](こちら)．
