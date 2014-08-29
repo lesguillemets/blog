@@ -13,7 +13,8 @@
 html, body { height: 100%; }
 
 body {
-  background-image: url("../img/back.jpeg");
+  background: #fff url("../img/rose_thorn_bw.jpg") 0 0 repeat fixed;
+  background-size:cover;
   font: 13.34px Helvetica, Arial, sans-serif;
   font-size: small;
   text-align: center;
@@ -85,12 +86,13 @@ ul.categories > li {
 .site {
   font-size: 115%;
   text-align: justify;
-  width: 53em;
+  width: 75%;
   margin: 3em auto 2em;
   line-height: 1.5em;
-  background-color: #ffffff;
+  background-color: rgba(255,255,255,0.8);
   padding: 15px;
 }
+
 .site h1, .site h2{
     font-size:120%;
 }
@@ -110,7 +112,7 @@ header a {
 }
 
 .title a {
-  color: #a00;
+    color: #a00;
 }
 
 .title a:hover {
@@ -192,6 +194,9 @@ article.post code {
 
 div.highlight>pre {
     background-color:#111;
+    border:1px solid #ddd;
+    overflow:auto;
+    border-radius 3px;
 }
 
 article.post h2, article.post h3{
