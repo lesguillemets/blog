@@ -170,6 +170,7 @@ footer.mainfooter .rss img {
 article.post {
     padding: 2em;
     padding-top: 0em;
+    line-height: 1.6;
 }
 
 article.post pre {
