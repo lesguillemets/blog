@@ -285,8 +285,14 @@ div.license a {
 }
 
 blockquote {
-  background: #eeeeee;
-  border-left: 3px solid #ccc;
-  margin: 0.1em 20px;
-  padding: 0.1em 0.3em;
+    background: #eeeeee;
+    border-left: 3px solid #ccc;
+    margin: 0.1em 20px;
+    padding: 0.1em 0.3em;
+}
+
+div.footnotes {
+    border-top: 1px solid black;
+    font-size:90%;
+    margin-top:3em;
 }
