@@ -28,3 +28,13 @@ var i_want_number = +document.getElementById("num0");
 とやるのと同じような話だ．気持ち悪いといえば気持ち悪いけど，いい感じに使えるのではないだろうか．
 
 これは [d3.js の tutorial](http://bost.ocks.org/mike/bar/2/) 読んでる時に見つけたものです．
+
+### 追記
+
+`Number` というのがあるので多分こっちを使うべきなんだとおもう．
+
+{% highlight javascript %}
+Number("3.3") // => 3.3
+Number("3") // => 3
+Number("3ab") // => NaN
+{% endhighlight %}
