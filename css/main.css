@@ -305,4 +305,23 @@ div.footnotes {
     border-top: 1px solid black;
     font-size:90%;
     margin-top:3em;
+    padding-top:1em;
+}
+
+div.footnotes p{
+    line-height:1.2;
+    margin:3px;
+}
+
+a.footnote{
+    text-decoration:none;
+}
+
+a.reversefootnote{
+    text-decoration: none;
+    color:#555;
+}
+
+a.reversefootnote:visited{
+    color:#aaa;
 }
