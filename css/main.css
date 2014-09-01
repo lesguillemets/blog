@@ -70,7 +70,7 @@ a:visited { color: #a0a; }
 
 .posts span {
   color: #999;
-  font-family: Monaco, "Ubuntu Mono", monospace, Courier;
+  font-family: Monaco, "Ubuntu Mono", "Source Code Pro", "Consolas", "Inconsolata", "DejaVu Sans MONO", "Menlo", "Fantasque Sans Mono", Courier, monospace;
   font-size: 80%;
 }
 
