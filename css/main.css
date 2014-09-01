@@ -13,7 +13,7 @@
 html, body { height: 100%; }
 
 body {
-  background: #888 url("../img/rose_thorn_bw.jpg") 0 0 no-repeat fixed;
+  background: #888 url("../img/rose_thorn_bw.jpg") 0 0 no-repeat fixed !important;
   background-position:right top;
   background-size:cover !important;
   font: 13.34px Helvetica, Arial, sans-serif;
