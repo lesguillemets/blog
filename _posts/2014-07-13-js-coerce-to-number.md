@@ -5,7 +5,7 @@ date:  2014-07-13 00:00:00 UTC+9
 categories: javascript
 ---
 
-### 問題
+## 問題
 
 {% highlight javascript %}
 var i_want_number = document.getElementById("num0");
@@ -13,7 +13,7 @@ var i_want_number = document.getElementById("num0");
 
 `i_want_number` は残念ながら文字列だ．これを回避するには `parseInt` や `parseFloat` があるが，ちょっとだるい感じがある気もする．
 
-### 解決
+## 解決
 
 {% highlight javascript %}
 var i_want_number = +document.getElementById("num0");
@@ -29,7 +29,7 @@ var i_want_number = +document.getElementById("num0");
 
 これは [d3.js の tutorial](http://bost.ocks.org/mike/bar/2/) 読んでる時に見つけたものです．
 
-### 追記
+## 追記
 
 `Number` というのがあるので多分こっちを使うべきなんだとおもう．
 
@@ -38,3 +38,9 @@ Number("3.3") // => 3.3
 Number("3") // => 3
 Number("3ab") // => NaN
 {% endhighlight %}
+
+## 追記 II
+
+`new Number(4)` と `4` は違い，前者は数値オブジェクトを生成するのに対してリテラルの方は primitive 値を作るということになるため，前者は
+一般に非推奨とのこと．読み返すとふつうに `parseFloat` 使えという気がする．
+
