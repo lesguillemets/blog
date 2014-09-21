@@ -2,7 +2,7 @@
 layout: post
 title:  "Jekyll で脚注でマウスホバーでアレ"
 date:  2014-08-31 12:00:00 UTC+9
-categories: jekyll,javascript
+categories: jekyll javascript
 ---
 
 とりあえずこの数字の上にマウスホバー[^a]
