@@ -63,6 +63,28 @@ echo {a..c}{2..4} # a2 a3 a4 b2 b3 b4 c2 c3 c4
 
 2つの違いには何かで嵌りそう．くわばらくわばら．
 
+因みに，step 指定したい場合はこう
+
+{% highlight bash %}
+echo {a..z..2}
+# a c e g i k m o q s u w y
+{% endhighlight %}
+
+負の場合はどっちでもいけるっぽい
+
+{% highlight bash %}
+echo {10..0..2} # 10 8 6 4 2 0
+echo {10..0..-2} # 10 8 6 4 2 0
+{% endhighlight %}
+
+この step 指定は bash 4 からの[機能らしく](http://stackoverflow.com/questions/23740768/)，それ以前なら `seq` とか使うと良さそうですね．
+
+{% highlight bash %}
+seq 10 5 20 # 10 15 20
+{% endhighlight %}
+
+expansion のと step を書く場所が違うのに注意．
+
 ### xargs で名前を再利用
 {} : **placeholder for text** と書かれている．
 
