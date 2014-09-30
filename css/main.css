@@ -96,11 +96,11 @@ ul.categories > li {
 }
 
 .site h1, .site h2{
-    font-size:130%;
+    font-size:150%;
 }
 
 .site h3 {
-    font-size:110%;
+    font-size:150%;
 }
 
 header a {
@@ -124,6 +124,7 @@ header a {
 header a.extra {
   color: #aaa;
   margin-left: 1em;
+  font-size:130%;
 }
 
 header a.extra:hover {
@@ -216,25 +217,32 @@ article.post h2, article.post h3{
 header.postheader{
     margin-left:-1.5em;
     margin-bottom:1em;
+    /* padding-bottom:1em; */
+    border-bottom: 1px solid #555;
+    overflow:auto;
+}
+
+article.post header.postheader time{
+    color: #888;
+    display:inline-block;
+    margin-left:auto;
+    float:right;
+    margin-bottom:1em;
 }
 
 
 article.post h1 {
-    font-size:130%;
+    font-size:150%;
+    display:inline-block;
 }
 
 article.post h2 {
-    font-size:120%;
+    font-size:150%;
 }
 
 article.post h3{
-    font-size:105%;
+    font-size:120%;
 }
-
-article.post time {
-  color: #999;
-}
-
 
 article.post pre code {
   border: none;
