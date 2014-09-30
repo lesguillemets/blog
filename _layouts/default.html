@@ -36,6 +36,18 @@
          
         <footer class="mainfooter">
           <div class="license">
+            {% if page.license == "by-nc-sa" %}
+            <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+              <img alt="Creative Commons Licence" style="border-width:0" src="{{site.baseurl}}/img/by-nc-sa.svg" width="70px"/>
+            </a>
+            <br />
+            Unlike many contents in this blog,
+            <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">
+              contents in this page</span>
+            is licensed under a
+            <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+              Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+            {% else %}
             <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
               <img alt="Creative Commons Licence" style="border-width:0" src="{{site.baseurl}}/img/by-sa.svg" width="70px"/>
             </a>
@@ -48,6 +60,7 @@
             </span> is licensed under a
             <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
               Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+            {% endif %}
           </div>
         </footer>
       </div>
