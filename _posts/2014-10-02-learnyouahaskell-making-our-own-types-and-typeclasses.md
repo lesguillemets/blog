@@ -1,12 +1,12 @@
 ---
 layout: post
 title:  "Haskell: type と typeclass を作る"
-date: 2014-10-02 00:00:00 UTC+9
+date: 2014-10-02 15:00:00 UTC+9
 categories: haskell
 license: "by-nc-sa"
 ---
 
-よく「えっとどうだっけ」ってなるので．
+よく「えっとどうだっけ」ってなるので，何回かに分けて書いて整理しようと思います．
 
 以下は，[Learn You a Haskell for Great Good!](http://learnyouahaskell.com/) の Chapter 8, [Making Our Own Types and Typeclasses](http://learnyouahaskell.com/making-our-own-types-and-typeclasses) を元にしたものです．基本的には翻訳のつもりですが，省略や加筆が勝手に入ることもあります．原文は [CC-BY-NC-SA](http://creativecommons.org/licenses/by-nc-sa/3.0/) でライセンスされており，この文書もそれに従います．
 
