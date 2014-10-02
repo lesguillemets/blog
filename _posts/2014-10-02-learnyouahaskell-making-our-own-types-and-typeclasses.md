@@ -120,4 +120,5 @@ module Shapes
 補助函数 `baseCircle` と `nudge` であれこれするようになる．プライベートなアレっちゅうこっちゃな．
 
 …ということで長くなったので今日はここまで．
+
 [^bool-succ]: この順になっているから `succ False` は `True` を返すけど，`succ True` は Exception.
