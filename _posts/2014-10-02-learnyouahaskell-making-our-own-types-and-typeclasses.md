@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Haskell: type と typeclass を作る"
-date: 2014-10-01 00:00:00 UTC+9
+date: 2014-10-02 00:00:00 UTC+9
 categories: haskell
 license: "by-nc-sa"
 ---
@@ -116,4 +116,8 @@ module Shapes
 ) where
 {% endhighlight %}
 
+ここで たとえば `Shape(...)` を単に `Shape` と書けば import したひとは constructor を使えなくなり，
+補助函数 `baseCircle` と `nudge` であれこれするようになる．プライベートなアレっちゅうこっちゃな．
+
+…ということで長くなったので今日はここまで．
 [^bool-succ]: この順になっているから `succ False` は `True` を返すけど，`succ True` は Exception.
