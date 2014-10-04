@@ -1,3 +1,5 @@
 _site
 _posts/template.md
 .ruby-version
+.*.sw[opq]
+.sw[opq]
