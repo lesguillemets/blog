@@ -125,3 +125,11 @@ Vim は起動時にいろんなオプションを渡すことができる．`-O`
 </table>
 
 `--remote` とかうまく使うと結構幸せになれそうな気がする．
+
+追記: `-` については例えば `cat` なども同様のを取るらしい．
+
+{% highlight text %}
+$ cat - foo.txt > bar.txt
+{% endhighlight %}
+
+とやれば，標準入力に打ち込んだ内容と `foo.txt` を concatenate したものが `bar.txt` に書き込まれる．
