@@ -70,15 +70,16 @@ b.some( function(e){ return e%2 === 0; } )
 
 {% highlight javascript %}
 var a = [2,5,3];
-a.map(function(e,i,a){ console.log(e,i,a); return e*i;})
+a.forEach(function(e,i,a){ console.log(e,i,a); return e*i;})
 // 2 0 [ 2, 5, 3 ]
 // 5 1 [ 2, 5, 3 ]
 // 3 2 [ 2, 5, 3 ]
 // => undefined (or [ 0, 5, 6 ])
 {% endhighlight %}
 
-developer.mozilla.org の docs には「常に `undefined` を返す」と書いてあり，firefox もそのとおりの動作をするが，
-node.js の v0.10.30 で試すと `[0,5,6]` が返ってきた．
+developer.mozilla.org の docs には「常に `undefined` を返す」と書いてあり，firefox もそのとおりの動作をする．
+<del>node.js の v0.10.30 で試すと `[0,5,6]` が返ってきた．</del>
+-> `map` と `forEach` を打ち間違えてたっぽい，すみません．
 
 `thisArg` もある．
 
