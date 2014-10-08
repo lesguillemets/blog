@@ -121,6 +121,7 @@ module Shapes
 
 …ということで長くなったので今日はここまで．
 
-[次]({{site.baseurl}}/2014/10/05/learnyouahaskell-making-our-own-types-and-typeclasses-2.html)
+* [次]({{site.baseurl}}/2014/10/05/learnyouahaskell-making-our-own-types-and-typeclasses-2.html)
+* [3回目]({{site.baseurl}}/2014/10/08/learnyouahaskell-making-our-own-types-and-typeclasses-3.html)
 
 [^bool-succ]: この順になっているから `succ False` は `True` を返すけど，`succ True` は Exception.

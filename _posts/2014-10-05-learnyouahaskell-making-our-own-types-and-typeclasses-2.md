@@ -112,5 +112,7 @@ ghci> Car {company="Ford", model="Mustang", year=1967}
 
 次が Type parameters の話なのでここで切ります．
 
+[次回]({{site.baseurl}}/2014/10/08/learnyouahaskell-making-our-own-types-and-typeclasses-3.html)
+
 [^comma]: 原文ではコンマが行の頭に来るやつで，僕はあれは嫌いなのでこっちにした．確かに最後のコンマがあるとエラー吐くやつでは新しい行を足すのには行頭コンマのほうが楽なのはわかるけれども．
 [^pn]: 冗談かと思ったら php とかでは[ほんとにそういうことがあるらしい](https://en.wikipedia.org/wiki/Scope_resolution_operator#PHP)．
