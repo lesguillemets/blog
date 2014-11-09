@@ -2,7 +2,7 @@
 layout: post
 title:  "vim-watchdogs でエラーがなかった時に通知する"
 date:  2014-11-09 00:00:00 UTC+9
-categories: Vim
+categories: vim
 ---
 
 ## 問題
