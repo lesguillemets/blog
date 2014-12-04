@@ -34,7 +34,7 @@ data Person = Person {
                 firstName :: String,
                 lastName :: String,
                 age :: Int
-            }
+            } deriving (Eq)
 {% endhighlight %}
 
 こうすると (各 field の型が全部 `Eq` じゃないといけないが) constructor のそれぞれが合ってるかどうかをチェックしてくれる．
