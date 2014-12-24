@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "コマンドラインからクリップボードにアクセス"
+title:  "コマンドラインからクリップボードにアクセス on linux"
 date:  2014-12-24 12:00:00 UTC+9
 categories: bash
 ---
