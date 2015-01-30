@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Haskell: type と typeclass を作る (5)"
-date:  2014-12-14 12:00:00 UTC+9
+date:  2015-01-29 12:00:00 UTC+9
 categories: haskell
 license: "by-nc-sa"
 ---
@@ -66,3 +66,52 @@ type AssociationList k v = [(k,v)]
 {% highlight haskell %}
 type IntMap v = Map Int v
 {% endhighlight %}
+
+まあそらそうか，という感じですね．
+
+---
+
+さて，このあと原文のいろいろを飛ばしますが，recursive なデータ構造も作れるということを少し書いておきましょう．
+
+リスト構造を模倣してみよう
+
+{% highlight haskell %}
+data List a = Empty | Cons a (List a) deriving (Show, Read, Eq, Ord)
+{% endhighlight %}
+
+型変数が入っていることに気をつける．
+この段階ではこういうふうに使えて
+
+{% highlight haskell %}
+ghci> 3 `Cons` (4 `Cons` (5 `Cons` Empty))
+Cons 3 (Cons 4 (Cons 5 Empty))
+{% endhighlight %}
+
+いいんだけど括弧が面倒そう．演算子っぽい文字を使えば `infixr` , `infixl` で演算子としての結合度を決められる．
+`r` のほうが右結合ということで，その後の数字は優先度だ（ghci で `:i (+)` とかやると色々見られるから試してみよう）．
+例えば `*` は `infixl 7`, `+` は `infixl 6` ということになっている．ご存知 `$` は `infixr 0` だ．
+
+こうなる
+
+{% highlight haskell %}
+infixr 5 :-:
+data List a = Empty | a :-: (List a) deriving (Show, Read, Eq, Ord)
+{% endhighlight %}
+
+{% highlight haskell %}
+ghci> 3 :-: 4 :-: 5 :-: Empty
+(:-:) 3 ((:-:) 4 ((:-:) 5 Empty))
+{% endhighlight %}
+
+Pattern match もいい感じにできる（あれはコンストラクタを比べている[^c]）：
+
+{% highlight haskell %}
+infixr 5  .++
+(.++) :: List a -> List a -> List a
+Empty .++ ys = ys
+(x :-: xs) .++ ys = x :-: (xs .++ ys)
+{% endhighlight %}
+
+このあと二分木を実装し， Typeclasses 102 に至ります．二分木は飛ばす．
+
+[^c]: Eq 配下にないものでもできるのはそういうわけだ
