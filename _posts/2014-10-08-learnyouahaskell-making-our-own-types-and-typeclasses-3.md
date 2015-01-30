@@ -98,6 +98,14 @@ innerProd :: (Num t) => Vector t -> Vector t -> t
 
 というわけで一旦ここまで．
 
+--- 
+
+[第1回]({{site.baseurl}}/2014/10/02/learnyouahaskell-making-our-own-types-and-typeclasses.html)
+/[第2回]({{site.baseurl}}/2014/10/05/learnyouahaskell-making-our-own-types-and-typeclasses-2.html)
+/[今回]({{site.baseurl}}/2014/10/08/learnyouahaskell-making-our-own-types-and-typeclasses-3.html)
+/[第4回]({{site.baseurl}}/2014/11/10/learnyouahaskell-making-our-own-types-and-typeclasses-4.html)
+/[第5回]({{site.baseurl}}/2015/01/29/learnyouahaskell-making-our-own-types-and-typeclasses-5.html)
+
 [^rem_0]: `:t Just 't'` とかを思い出してみよう．
 [^ffp]: そもそもこういう書き方出来るんですね? …とおもったら最近のは無理？[Haskell-cafe : Why were datatype contexts removed instead of "fixing them"?](https://groups.google.com/d/msg/haskell-cafe/4G4cSdyEGdE/yMofd2qIe0gJ) というのがあり，それっぽい書き方は ghcmod で `Illegal datatype context (use -XDatatypeContexts): Ord k =>` といわれたりする．
 [^foom]: ちょっとふーむという感じだが．

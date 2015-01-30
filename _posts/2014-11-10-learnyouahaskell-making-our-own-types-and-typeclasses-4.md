@@ -58,3 +58,11 @@ True
 あとは `Show` とか `Read` とか `Read` とかの話が出ておしまい．
 
 このあとは `type` で作れる synonym とかの話になるが，typeclasses 102 まで飛ばす予定．
+
+---
+
+[第1回]({{site.baseurl}}/2014/10/02/learnyouahaskell-making-our-own-types-and-typeclasses.html)
+/[第2回]({{site.baseurl}}/2014/10/05/learnyouahaskell-making-our-own-types-and-typeclasses-2.html)
+/[第3回]({{site.baseurl}}/2014/10/08/learnyouahaskell-making-our-own-types-and-typeclasses-3.html)
+/[今回]({{site.baseurl}}/2014/11/10/learnyouahaskell-making-our-own-types-and-typeclasses-4.html)
+/[第5回]({{site.baseurl}}/2015/01/29/learnyouahaskell-making-our-own-types-and-typeclasses-5.html)

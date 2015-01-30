@@ -114,4 +114,13 @@ Empty .++ ys = ys
 
 このあと二分木を実装し， Typeclasses 102 に至ります．二分木は飛ばす．
 
+--
+
+過去記事:
+[第1回]({{site.baseurl}}/2014/10/02/learnyouahaskell-making-our-own-types-and-typeclasses.html)
+/[第2回]({{site.baseurl}}/2014/10/05/learnyouahaskell-making-our-own-types-and-typeclasses-2.html)
+/[第3回]({{site.baseurl}}/2014/10/08/learnyouahaskell-making-our-own-types-and-typeclasses-3.html)
+/[第4回]({{site.baseurl}}/2014/11/10/learnyouahaskell-making-our-own-types-and-typeclasses-4.html)
+/[今回]({{site.baseurl}}/2015/01/29/learnyouahaskell-making-our-own-types-and-typeclasses-5.html)
+
 [^c]: Eq 配下にないものでもできるのはそういうわけだ
