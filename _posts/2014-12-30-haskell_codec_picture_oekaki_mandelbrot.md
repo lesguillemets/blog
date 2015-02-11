@@ -19,7 +19,7 @@ categories: haskell
 [Codec.Picture (hoogle)](https://hackage.haskell.org/package/JuicyPixels-1.2/docs/Codec-Picture.html)みればだいたい
 使い方がわかるのは静的型のありがたいところですね．
 どうやら基本的に `Data.Word.Word8` をピクセルや RGB 値として使い，画像はその列として
-`Data.Vsctor.Storable.Vector` を基盤にできるっぽい．
+`Data.Vector.Storable.Vector` を基盤にできるっぽい．
 
 Gray scale で横幅10px くらいの png を出力するのはこんな感じ：
 
