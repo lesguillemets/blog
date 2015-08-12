@@ -159,6 +159,6 @@ takeWhile (not . null) . unfoldr (Just . splitAt 2)
 toMaybe b x = if b then Just x else Nothing
 {% endhighlight %}
 
-
+----
 
 うまくやれば色々をかなりスッキリ書けそうな予感．`foldr` の双対というのにも気をつけて，使っていきたいですね．
